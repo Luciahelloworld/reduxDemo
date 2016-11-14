@@ -4,7 +4,8 @@
   "description": "redux练习demo",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -31,10 +32,15 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.6.0",
+    "html-webpack-plugin": "^2.24.1",
+    "path": "^0.12.7",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "handlebars": "^4.0.6",
+    "redux": "^3.6.0"
   }
 }
